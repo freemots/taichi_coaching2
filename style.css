@@ -768,6 +768,7 @@ font-family: "YuMincho", "Yu Mincho", "Hiragino Mincho ProN", "MS Mincho", serif
 /* flow-sectionの最後とinfo-sectionの始まりを特に意識 */
 #lesson-flow {
     padding-bottom: 0px; /* セパレーターに近づける */
+    Margin-top: 0px;
 }
 
 #info {
@@ -857,6 +858,7 @@ font-family: "YuMincho", "Yu Mincho", "Hiragino Mincho ProN", "MS Mincho", serif
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     border: 1px solid #e0d7c6;
+    margin-top: 1rem;
 }
 
 .access-details {
