@@ -1242,6 +1242,27 @@ rt {
     color: #888;      /* 色を少し薄くして、メインの文字を邪魔しないようにする */
 }
 
+.access-title-bg {
+    /* 画像を背景に設定 */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('KIMG0252.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    /* 余白と装飾 */
+    padding: 60px 20px; /* 上下にゆとりを持たせて写真を見せる */
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 8px; /* 全体のトーンに合わせて少し角を丸める */
+}
+
+.access-title-bg .section-title {
+    margin: 0;
+    color: #333; /* 文字色をハッキリさせる */
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.6); /* 文字の周りだけさらに白を重ねて読みやすく */
+    padding: 10px 30px;
+    letter-spacing: 0.1em;
+}
 /* スマホ表示用の調整 */
 @media screen and (max-width: 768px) {
     .about-name {
