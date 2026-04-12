@@ -1237,6 +1237,11 @@ font-family: "YuMincho", "Yu Mincho", "Hiragino Mincho ProN", "MS Mincho", serif
     width: 100%;
 }
 
+rt {
+    font-size: 0.5em; /* ふりがなを小さく */
+    color: #888;      /* 色を少し薄くして、メインの文字を邪魔しないようにする */
+}
+
 /* スマホ表示用の調整 */
 @media screen and (max-width: 768px) {
     .about-name {
